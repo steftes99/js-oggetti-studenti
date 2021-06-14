@@ -27,3 +27,8 @@ studente2.età = anni;
 classe.push(studente2);
 
 console.log(classe);
+
+for(i = 0; i < classe.length; i++){
+    console.log(classe[i].nome + ' ' + classe[i].cognome);
+
+}
